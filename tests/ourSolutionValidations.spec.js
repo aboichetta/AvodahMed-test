@@ -1,7 +1,7 @@
 const { test, expect } = require('../fixtures.js');
 
 test.describe('Our Solution Page Validations', async () => {
-    test('Validate the contents of the Our Solution page', async ({ pom }) => {
+    test('Validate the contents of the Our Solution section', async ({ pom }) => {
 
         await test.step('Validate the elements of the page', async () => {
             await Promise.all([
