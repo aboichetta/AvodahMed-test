@@ -39,5 +39,6 @@ Make sure you have the following installed:
 
 ## Install
 
-Before running the tests, install the project dependencies using npm i.
-Then, run npx playwright test to execute all three tests simultaneously, as the repository is configured to use 4 workers when running locally.
+Before running the tests, install the project dependencies using **npm i**.
+Then, run **npx playwright test** to execute all three tests simultaneously, as the repository is configured to use 4 workers when running locally. 
+The report for the tests should be inside the **monocart-report** folder. Open the **index.html** file to inspect the results.
