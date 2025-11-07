@@ -29,7 +29,7 @@ test.describe('FAQs Page Validations', async () => {
 
         await test.step('Validate the functionality of the FAQs input and the shown results', async () => {
             await pom.faqsPage.faqsInput.scrollIntoViewIfNeeded();
-            await pom.faqsPage.faqsInput.type('cost', { delay: 200 });
+            await pom.faqsPage.faqsInput.type('cost', { delay: 300 });
             await expect(pom.faqsPage.showingResultsLabel).toBeVisible();
             await expect(pom.faqsPage.showingResultsLabel).toContainText('cost');
             await expect(pom.faqsPage.questionsHeader('How much does it cost?')).toBeVisible();
