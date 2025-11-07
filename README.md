@@ -39,4 +39,5 @@ Make sure you have the following installed:
 
 ## Install
 
-Before running the tests, install the project dependencies with **npm i**. After that, run **npx playwright test** to run the 3 tests at the same time, since the repository is configured to have 4 workers while running locally.
+Before running the tests, install the project dependencies using npm i.
+Then, run npx playwright test to execute all three tests simultaneously, as the repository is configured to use 4 workers when running locally.
